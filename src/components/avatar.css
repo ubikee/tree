@@ -1,0 +1,43 @@
+.avatar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20rem;
+    overflow: hidden;
+}
+
+.avatar>.person:hover {
+    background-color: rgba(150,150,150,.2);
+    cursor: pointer;
+}
+
+.avatar>aside {
+    width: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar>.person {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    padding: 0 0 0 1rem;
+}
+
+.avatar>.person>.frame {
+    overflow: hidden;
+    border: solid 2px #999;
+    border-radius: 60%;
+}
+
+.avatar>.person>.info {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.avatar img {
+    height: 100%;
+}
